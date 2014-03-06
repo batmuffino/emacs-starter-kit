@@ -132,7 +132,7 @@ The next block makes org-babel aware that a lower-case 'r' in a =src= block head
 
 You are encouraged to add the following to your personal configuration
 although it is not added by default as a security precaution.
-#+begin_src emacs-lisp :tangle no
+#+begin_src emacs-lisp 
   (setq org-confirm-babel-evaluate nil)
 #+end_src
 
